@@ -4,7 +4,7 @@ const arrayOfInputs = input.split("\r\n");
 
 let sum = 0;
 for (let i = 0; i < arrayOfInputs.length; i += 3) {
-  let group = [];
+  const group: string[] = [];
 
   for (let j = i; j < i + 3; j++) {
     group.push(arrayOfInputs[j]);
