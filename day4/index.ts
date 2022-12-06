@@ -29,12 +29,7 @@ for (let i = 0; i < arrayOfInputs.length; i++) {
     )
   );
 
-  if (
-    !(
-      (leftFirst < leftSecond && rightFirst < rightSecond) ||
-      (leftFirst > leftSecond && rightFirst > rightSecond)
-    )
-  ) {
+  if (!(rightFirst < leftSecond || leftFirst > rightSecond)) {
     sum++;
   }
 }

@@ -6,7 +6,7 @@ const arrayOfInputs = input.split("\r\n");
 
 let sum = 0;
 
-const arr: any = [];
+const arr: number[] = [];
 arrayOfInputs.forEach((el) => {
   if (parseInt(el) > 0) {
     sum += parseInt(el);
